@@ -1,0 +1,77 @@
+﻿\documentclass[journal,10pt,spanish]{IEEEtran}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+\selectlanguage{spanish}
+
+
+\begin{document}
+    \title{El infinito marcó el límite y el comienzo de la computación}\\
+    \author{\IEEEauthorblockN{Laura Camila Erazo Gaviria}\\
+    \IEEEauthorblockA{\textit{Ingeniería Electrónica} \\
+    \textit{Universidad de Antioquia}\\
+    e-mail: camila.erazo@udea.edu.co}
+}
+\markboth{Medellín, Colombia, Marzo 2020}
+\maketitle
+\date{March 2020}
+
+\maketitle
+\begin{abstract}
+    Nacimiento de la computació a partir de la crisis de los fundamentos de la matemáticas. \cite{sitio}
+\end{abstract}
+
+
+\section{Introduction}
+
+En la historia de las matemáticas ciertos momentos fueron clave para dar origen a los principios que aplicamos hoy en día, las revoluciones conceptuales y sociales abrieron paso a nuevas teorías que con el tiempo fueron desarrollándose y aplicándose a la tecnología de hoy. Así, la historia de la computación y la informática se divide en varias etapas de nuevas ideas y descubrimientos.  
+
+\section {El infinito}
+
+Los científicos se esforzaban por desarrollar una base sólida para las propiedades de los números, una base que demostrara que las matemáticas eran completas e infalibles, y que por medio de ellas se podía resolver cualquier problema. 
+
+A finales del siglo XIX George Cantor trabajó en el infinito, un concepto que los matemáticos creían imposible. Desarrolló la “teoría de conjuntos” donde mostró que hay infinitos más grandes que otros. Después trató de probar su “hipótesis de lo continuo”, sabía que el conjunto de los números decimales era más grande que el conjunto de los números naturales, pero ¿podría haber un conjunto intermedio?, un día probaba que sí y al siguiente que no. \cite{sitio2} \cite{sitio3} 
+
+Esto hizo que las matemáticas entraran en crisis y le trajo a Cantor números rechazos que lo llevaron a la depresión. Murió en un psiquiátrico. Dijo:
+
+“La visión del infinito que considero la única correcta es compartida por pocos. Aunque posiblemente yo sea el primero en la historia en tomar esta posición tan explícitamente, ¡estoy seguro de que no seré el último!”. \cite{sitio4}
+
+Y así fue, desató numerosas paradojas del infinito como la “paradoja del barbero” de Bertrand Russell, o la paradoja del hotel” de David Hilbert.
+
+\section{El programa de Hilbert}
+
+David Hilbert defendió la teoría de conjuntos de Cantor.  A principios del siglo XX intentó dar una base sólida y completamente lógica a la teoría de conjuntos, y en general a las matemáticas, para evitar las paradojas y saber si un enunciado aritmético es cierto o no (“problema de la decisión”), y así resolver los problemas matemáticos por medio de un sistema finito de pasos, a esto lo llamó el “programa de Hilbert”. Kurt Gödel tratando de demostrar que éste programa era coherente terminó refutándolo y eso destruyó a Hilbert. Menos de una docena de personas asistieron a su funeral.\cite{sitio5}
+
+\section{ El límite de las matemáticas}
+
+Kurt Gödel inspirado en el problema de Cantor  (hipótesis de lo continuo) y en el “programa de Hilbert" demostró en 1930 que hay afirmaciones de los números que son ciertas pero que no se pueden probar, y que hay enunciados de los que nunca se podrá demostrar ni su falsedad ni su veracidad. Esto por medio de su “Teorema de la incompletitud”. Gödel por una paranoia temía ser envenenado, dejó de comer y acabó muriendo por desnutrición. \cite{sitio6}
+
+Como vemos, las ideas de Cantor desataron nuevas ideas que cuestionaron los fundamentos de la matemática, se descubrió que las matemáticas tienen limitaciones y que como descubrió  Gödel,  la matemática no podía dar respuesta a todas las preguntas.
+
+\section{ La máquina de Turing}
+
+Alan Turing complementando esto, en los años 30 del siglo XX, para resolver el “problema de la decisión” pensó en una computadora que resolvería cualquier expresión matemática reducida a una cadena de operaciones lógicas en las que cabían dos decisiones, verdadero o falso. Creó el concepto de la \textbf{''Máquina de Turing''}, demostrando que existían problemas que una máquina no podía resolver y  que no hay un algoritmo finito que nos haga saber que problemas no tienen solución. Además que no es posible decidir algorítmicamente si todos los programas del mundo terminan (“Problema de la parada”). \textsl{''En la actualidad existe la prueba para programas concretos que demuestra, que en las circunstancias de la ejecución, el programa terminó, esto se hace para demostrar su correctitud (“propiedad que distingue a un algoritmo de un procedimiento efectivo”).''}
+
+En la II Guerra Mundial Turing ayudó a descifrar el código Enigma de los nazis, creó uno de los primeros ordenadores como los actuales, que además de digital podía usarse para muchas cosas con solo cambiar el programa.  A pesar de su primordial ayuda en la Guerra fue condenado por ser homosexual, para evitar la cárcel se sometió a tratamientos con hormonas, le crecieron los pechos y le provoco inestabilidad emocional, esto lo llevo al aparente suicidio. 
+
+\section{ Inicio de la computación}
+
+Volviendo a la Maquina de Turing y a como se pasó de ese concepto a los computadores y a la tecnología de hoy;  la máquina consta de los siguientes elementos:  una cinta infinita dividida en casillas que será la memoria, una cabeza capaz de moverse por la cinta de izquierda a derecha y de leer y escribir símbolos en esa cinta, finalmente una tabla finita de instrucciones que le diga a la cabeza que es lo que tiene que hacer. La cabeza lee el contenido, borra el contenido anterior y escribe uno nuevo. Así la maquina tiene capacidad infinita y puede sumar, multiplicar y hacer cualquier operación. 
+Nuestros ordenadores simulan la cinta con la memoria y el microprocesador simula la cabeza y se encarga de leer y ejecutar los programas \cite{sitio7}.La tabla de instrucciones que maneja la cabeza en nuestro caso está codificada por unos (1) y ceros (0). Un programa de computador es un flujo de 1 y 0 que representan lo que el programador quiere que haga el computador.
+
+\section{Computadoras y la mente humana}
+
+Los descubrimientos de Turing terminaron de marcar el límite de las matemáticas y en consecuencia de la computación, la ciencia no iba a seguir perdiendo el tiempo en encontrar un mecanismo que pueda resolver todos los problemas y se iba a empezar a centrar en crear algoritmos para los problemas solubles y finitos. La computación poco a poco fue ocupándose de las tareas humanas. Aun así como éstos teoremas demuestran, la mente humana no puede ser imitada por los computadoras, hay cosas que entendemos  y que no se pueden demostrar y  que por tanto las computadoras no pueden entender.
+
+\section{Gracias a la historia}
+
+Estos fueron algunos de los debates que sucedieron en la historia de la matemática, como vimos las ideas diferentes y revolucionarias de estos personajes  los llevaron a la locura y a la soledad, a pesar de sus grandes contribuciones. Ellos nos mostraron límites y nuevos comienzos y que el cerebro humano es sorprendente e inigualable. Historias como estas son las que se deberían incluir en la educación, pues muestran el origen de la tecnología que usamos y que es primordial para la realización de las tareas del presente. Sin ellos no sería el mundo que es hoy.
+
+\bibliographystyle{plain}
+\bibliography{bibliografia.bib}
+
+
+
+
+
+\end{document}
